@@ -30,13 +30,13 @@ export default function CartItem( { item, value }) {
                      <span 
                         className='btn btn-black mx-1'
                         onClick = { () => decrement(id)}>
-                        -
+                        <strong>-</strong>
                      </span>
-                     <span className='btn btn-black mx-1'>{count}</span>
+                     <span className='btn btn-black mx-1'><strong>{count}</strong></span>
                      <span 
                         className='btn btn-black mx-1'
                         onClick = { () => increment(id)}>
-                        +
+                        <strong>+</strong>
                      </span>
                 </div>
             </div>
